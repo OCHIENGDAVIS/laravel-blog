@@ -7,6 +7,7 @@
     <p>
         This is the about page!!
     </p>
+    <p>{{$title}}</p>
 
 @endsection
    
