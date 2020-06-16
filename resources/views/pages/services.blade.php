@@ -1,10 +1,9 @@
-@extends('layouts.base')
+@extends('layouts.app')
 @section('title')
     Services Page
 @endsection
 @section('content')
     <h2>Welcome to the services page</h2>
     <p>This is the services page</p>
-
 @endsection
     
