@@ -40,6 +40,12 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
+                         <li class="nav-item">
+                                <a class="nav-link" href="/posts/create">Create Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/posts">All Posts</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('about') }}">About</a>
                             </li>
@@ -79,6 +85,7 @@
         </nav>
 
         <main class="py-4 container">
+            @include('inc.messages')
             @yield('content')
         </main>
     </div>
